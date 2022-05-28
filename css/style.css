@@ -383,12 +383,13 @@ button,
 
 .layout--landing {
 	grid-template-areas: "header" "content-1" "footer";
-	background-color: #e0eef5;
+	background-color: #f4f4f4;
 	font-family: "Montserrat", "Arial", sans-serif;
 }
 
 .layout--landing .header {
-	background-color: #2688b9;
+	background-color: #3a3e46;
+	color: #ffffff;
 }
 
 .layout--landing .header [contenteditable="true"]:empty::before {
@@ -420,7 +421,7 @@ button,
 }
 
 .layout--landing .footer {
-	background-color: #cecece;
+	background-color: #adadad;
 }
 
 .layout--landing .footer .add-img-btn svg {
@@ -429,7 +430,7 @@ button,
 
 .layout--landing .footer .add-img-btn:hover svg,
 .layout--landing .footer .add-img-btn:focus svg {
-	fill: #80ccf0;
+	fill: #f4f4f4;
 }
 
 .layout--landing .content-2,
@@ -441,7 +442,7 @@ button,
 	-ms-grid-columns: 43fr 70fr;
 	grid-template-columns: 43fr 70fr;
 	grid-template-areas: "header header" "content-1 content-2" "footer footer";
-	background-color: #f5f5f5;
+	background-color: #f4f4f4;
 }
 
 .layout--blog .header,
