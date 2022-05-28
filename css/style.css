@@ -407,7 +407,7 @@ button,
 
 .layout--landing .header__elements-wrapper .add-img-btn:hover svg,
 .layout--landing .header__elements-wrapper .add-img-btn:focus svg {
-	fill: #80ccf0;
+	fill: #9a70d1;
 }
 
 .layout--landing .content__elements-wrapper {
@@ -445,10 +445,12 @@ button,
 	background-color: #f4f4f4;
 }
 
-.layout--blog .header,
-.layout--blog .footer {
+.layout--blog .header {
 	background-color: #3a3e46;
 	color: #ffffff;
+}
+.layout--blog .footer {
+	background-color: #adadad;
 }
 
 .layout--blog .header::before,
@@ -471,7 +473,7 @@ button,
 .layout--blog .header .add-img-btn:focus svg,
 .layout--blog .footer .add-img-btn:hover svg,
 .layout--blog .footer .add-img-btn:focus svg {
-	fill: #80ccf0;
+	fill: #9a70d1;
 }
 
 .layout--blog .header__elements-wrapper,
@@ -515,12 +517,12 @@ button,
 }
 
 .layout--shop .header .add-img-btn svg {
-	fill: #3a3e46;
+	fill: #ffffff;
 }
 
 .layout--shop .header .add-img-btn:hover svg,
 .layout--shop .header .add-img-btn:focus svg {
-	fill: #80ccf0;
+	fill: #9a70d1;
 }
 
 .layout--shop .content {
@@ -539,7 +541,10 @@ button,
 	-webkit-transform: none;
 	transform: none;
 }
-
+.layout--shop .header {
+	background-color: #3a3e46;
+	color: #ffffff;
+}
 .layout--shop .footer {
 	background-color: #adadad;
 }
@@ -559,7 +564,7 @@ button,
 
 .layout--shop .footer .add-img-btn:hover svg,
 .layout--shop .footer .add-img-btn:focus svg {
-	fill: #80ccf0;
+	fill: #9a70d1;
 }
 
 .placeholder {
@@ -782,7 +787,7 @@ button,
 
 .add-img-btn:hover svg,
 .add-img-btn:focus svg {
-	fill: #80ccf0;
+	fill: #9a70d1;
 }
 
 .img-upload {
@@ -847,7 +852,7 @@ button,
 	line-height: 22px;
 	text-align: center;
 	color: #ffffff;
-	background-color: #80ccf0;
+	background-color: #9a70d1;
 	border-radius: 4px;
 	cursor: pointer;
 	-webkit-transition: background-color 0.3s;
@@ -856,7 +861,7 @@ button,
 
 .img-upload__label:hover,
 .img-upload__label:focus-within {
-	background-color: #a2dffc;
+	background-color: #c6ade8;
 }
 
 .element {
@@ -1054,7 +1059,7 @@ button,
 .grid-select__btn:hover,
 .grid-select__radio:focus + .grid-select__btn,
 .grid-select__radio:checked + .grid-select__btn {
-	background-color: #80ccf0;
+	background-color: #9a70d1;
 }
 
 .grid-select__btn:hover .grid-select__img,
